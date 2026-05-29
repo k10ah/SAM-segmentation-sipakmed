@@ -1,1 +1,5 @@
-# Vista-2D-image-segmentation---sipakmed
+This work presents an automated image-analysis pipeline based on the Segment Anything Model (SAM) for cervical cell segmentation and quantitative feature extraction using the SIPaKMeD dataset.
+
+The proposed framework performs whole-cell segmentation followed by perinuclear hollow-region identification. Morphological and intensity-based features including cell area, halo area, halo-to-cell area ratio, cell eccentricity, cell solidity, halo intensity, cytoplasmic intensity, and halo contrast are extracted for each image. A total of 40 images comprising koilocytotic and dyskeratotic cell classes were analyzed.
+
+Results demonstrate robust cell segmentation performance with an average SAM confidence score exceeding 0.96. Among the extracted features, halo contrast showed the greatest discriminative potential between the two cell types, while cell solidity exhibited substantial overlap. Although automatic halo detection remains challenging and requires further refinement, the study establishes a complete segmentation-to-feature-extraction workflow for cervical cytology analysis. Future work will focus on improved halo localization and machine-learning-based classification using the extracted morphological descriptors.
